@@ -11,7 +11,7 @@ add.addEventListener('click' , function(element) {
 	element.innerHTML = 'item' + numberOfListElements;
 	
 	list.appendChild(element);
-	});
+});
 
 
 
