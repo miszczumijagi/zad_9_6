@@ -8,9 +8,7 @@ add.addEventListener('click' , function(element) {
   	var listByTagName = document.getElementsByTagName('li');
 	var numberOfListElements = listByTagName.length;
 	
-	for (i = 0 ; i <= numberOfListElements ; i++) {
-		element.innerHTML = 'item ' + [i];
-	}
+	element.innerHTML = 'item' + numberOfListElements;
 	
 	list.appendChild(element);
 	});
